@@ -11,34 +11,34 @@ interface Data {
 
 const data: Data[] = [
   {
-    imgSrc: getImagePath("/assets/carousel/google.svg"),
+    imgSrc:"/assets/carousel/google.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/toyota-7.svg"),
+    imgSrc:"/assets/carousel/toyota-7.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/honda.svg"),
+    imgSrc:"/assets/carousel/honda.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/ford-6.svg"),
+    imgSrc:"/assets/carousel/ford-6.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/bmw-logo.svg"),
+    imgSrc:"/assets/carousel/bmw-logo.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/google.svg"),
+    imgSrc:"/assets/carousel/google.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/toyota-7.svg"),
+    imgSrc:"/assets/carousel/toyota-7.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/honda.svg"),
+    imgSrc:"/assets/carousel/honda.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/ford-6.svg"),
+    imgSrc:"/assets/carousel/ford-6.svg",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/bmw-logo.svg"),
+    imgSrc:"/assets/carousel/bmw-logo.svg",
   },
 ];
 
