@@ -24,7 +24,7 @@ const Banner = () => {
           {/* Añadimos overflow-hidden a la card */}
           <div className="mt-12 bg-white p-4 rounded-xl shadow-xl border border-gray-100 overflow-hidden"> 
             <Image
-              src={getImagePath("/assets/banner/taller.jpg")}
+              src="/assets/banner/taller.jpg"
               alt="banner-image"
               width={1200}
               height={598}
