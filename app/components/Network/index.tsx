@@ -11,22 +11,22 @@ interface ServiceType {
 // 2. Creamos los datos de tus servicios (puedes editar los textos aquí)
 const ServiceData: ServiceType[] = [
   {
-    imgSrc: getImagePath("/assets/buyers/motor.png"), // Asegúrate de tener este icono o cambia la ruta
+    imgSrc:"/assets/buyers/motor.png", // Asegúrate de tener este icono o cambia la ruta
     title: "Mantenimiento Preventivo",
     description: "Cambio de aceite, filtros y revisión de niveles para alargar la vida de tu motor.",
   },
   {
-    imgSrc: getImagePath("/assets/buyers/frenos.png"), // Icono de frenos
+    imgSrc: "/assets/buyers/frenos.png", // Icono de frenos
     title: "Frenos y Suspensión",
     description: "Reparación de balatas, discos y amortiguadores para tu seguridad total.",
   },
   {
-    imgSrc: getImagePath("/assets/buyers/bateria.png"), // Icono de batería/eléctrico
+    imgSrc: "/assets/buyers/bateria.png", // Icono de batería/eléctrico
     title: "Sistema Eléctrico",
     description: "Diagnóstico de batería, alternador, marcha y solución de fallas eléctricas.",
   },
   {
-    imgSrc: getImagePath("/assets/buyers/laptop.png"), // Icono de computadora/scanner
+    imgSrc: "/assets/buyers/laptop.png", // Icono de computadora/scanner
     title: "Diagnóstico Computarizado",
     description: "Tecnología de punta para detectar fallas precisas en el sistema de tu auto.",
   },

@@ -28,7 +28,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
           <header className="p-4 flex items-center justify-between">
             <img
               className="h-auto w-auto"
-              src={getImagePath("/assets/logo/2LogoHorizon.png")}
+              src="/assets/logo/2LogoHorizon.png"
               alt="Courses-Logo"
               onClick={() => {
                 setIsOpen(false);

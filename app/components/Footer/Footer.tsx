@@ -26,7 +26,7 @@ const contacto = () => {
 
           <div className="col-span-4 md:col-span-12 lg:col-span-4">
             <Image
-  src={getImagePath("/assets/logo/2LogoHorizon.png")}
+  src="/assets/logo/2LogoHorizon.png"
   alt="logo"
   width={200} // Reemplaza 200 con el ancho real del logo en píxeles
   height={50} // Reemplaza 50 con la altura real del logo en píxeles
@@ -39,7 +39,7 @@ const contacto = () => {
                 className="footer-icons"
               >
                 <Image
-                  src={getImagePath("/assets/footer/whatsapp-3.svg")}
+                  src="/assets/footer/whatsapp-3.svg"
                   alt="twitter"
                   width={20}
                   height={20}
@@ -52,7 +52,7 @@ const contacto = () => {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src={getImagePath("/assets/footer/instagram.svg")}
+                  src="/assets/footer/instagram.svg"
                   alt="instagram"
                   width={20}
                   height={20}
@@ -88,7 +88,7 @@ const contacto = () => {
           <div className="col-span-4 md:col-span-4 lg:col-span-4">
             <div className="flex gap-2">
               <Image
-                src={getImagePath("/assets/footer/mask.svg")}
+                src="/assets/footer/mask.svg"
                 alt="mask-icon"
                 width={24}
                 height={24}
@@ -99,7 +99,7 @@ const contacto = () => {
             </div>
             <div className="flex gap-2 mt-10">
               <Image
-                src={getImagePath("/assets/footer/telephone.svg")}
+                src="/assets/footer/telephone.svg"
                 alt="telephone-icon"
                 width={24}
                 height={24}
@@ -110,7 +110,7 @@ const contacto = () => {
             </div>
             <div className="flex gap-2 mt-10">
               <Image
-                src={getImagePath("/assets/footer/email.svg")}
+                src="/assets/footer/email.svg"
                 alt="email-icon"
                 width={24}
                 height={24}

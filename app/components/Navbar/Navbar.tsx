@@ -37,12 +37,12 @@ const Navbar = () => {
               <div className="flex flex-shrink-0 items-center">
                 <img
                   className="block h-10 w-auto lg:hidden"
-                  src={getImagePath("/assets/logo/LogohorizonPostal.png")}
+                  src="/assets/logo/LogohorizonPostal.png"
                   
                 />
                 <img
                   className="hidden h-16 w-auto lg:block" 
-                  src={getImagePath("/assets/logo/LogohorizonPostal.png")}
+                  src="/assets/logo/LogohorizonPostal.png"
                  
                 />
               </div>

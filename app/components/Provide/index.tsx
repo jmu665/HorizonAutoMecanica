@@ -10,22 +10,22 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
   {
-    imgSrc: getImagePath("assets/carousel/google.svg"),
+    imgSrc: "assets/carousel/google.svg",
     country: "",
     paragraph: "Expertos en el cuidado de tu vehiculo",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/mazda-2.svg"),
+    imgSrc: "/assets/carousel/mazda-2.svg",
     country: "",
     paragraph: "Diagnóstico de Alta Precisión.",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/honda.svg"),
+    imgSrc: "/assets/carousel/honda.svg",
     country: "",
     paragraph: "Técnicos Certificados y en Continua Actualización.",
   },
   {
-    imgSrc: getImagePath("/assets/carousel/toyota-7.svg"),
+    imgSrc: "/assets/carousel/toyota-7.svg",
     country: "",
     paragraph: "Respaldamos Nuestra Calidad.",
   },
