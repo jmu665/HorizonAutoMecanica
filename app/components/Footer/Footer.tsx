@@ -25,13 +25,11 @@ const contacto = () => {
           {/* COLUMN-1 */}
 
           <div className="col-span-4 md:col-span-12 lg:col-span-4">
-            <Image
-  src="/assets/logo/2LogoHorizon.png"
-  alt="logo"
-  width={200} // Reemplaza 200 con el ancho real del logo en píxeles
-  height={50} // Reemplaza 50 con la altura real del logo en píxeles
-  className="pb-8"
-/>
+            <img
+            src="/assets/logo/2LogoHorizon.png"
+            alt="logo"
+            className="pb-8"
+            />
             <div className="flex gap-4">
             
               <Link

@@ -37,7 +37,7 @@ const Why = () => {
           {/* COLUMN-1 */}
           <div className="">
             <Image
-              src={getImagePath("/assets/why/Poster.png")}
+              src="/assets/why/Poster.png"
               alt="iPad-image"
               width={600}
               height={300}
@@ -60,7 +60,7 @@ const Why = () => {
                 <div className="flex mt-4" key={i}>
                   <div className="rounded-full h-10 w-12 flex items-center justify-center bg-circlebg">
                     <Image
-                      src={getImagePath("/assets/why/check.svg")}
+                      src="/assets/why/check.svg"
                       alt="check-image"
                       width={24}
                       height={24}
