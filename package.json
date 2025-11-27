@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.9",
+    "@heroicons/react": "^2.1.5",
     "@react-google-maps/api": "^2.20.7",
     "@types/node": "22.7.4",
     "@types/react": "18.3.11",
